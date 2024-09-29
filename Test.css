@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.bwat{
+    margin: 5px;
+    width: 100%;
+    height: 70px;
+    background-color:black;
+}
+.ama{
+    height: 40px;
+    width: 150px;
+    background-color: rebeccapurple;
+}
+.amazon{
+    width: 100%;
+    height: 40px;
+}
+.te{
+    width: 50px;
+    height: 50px;
+    
+}
+.im{
+    width:28px;
+    height: 15px;
+}
+.dr{
+    width:100%;
+    height: 100%;
+}
+.tipiti{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100px;
+    padding: 5px;
+
+}
+.de{
+    position: absolute;
+    right: 0px;
+    color: white;
+    height: 40px;
+    
+}
+.loca{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 62px;
+    top: 16px;
+    color: white;
+}
+
+.un{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 280px;  
+    height: 40px;
+}
+.all, .rech{
+    width: 50px;
+    background-color: beige;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.all{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.rech{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.inpu{
+    height: 100%;
+    background-color: white;
+    flex: 1;
+    border: none;
+    padding-left: 5px;
+}
+.deu{
+    width: 750px;
+   
+    height: 40px;
+    display: flex;
+}
+.le{
+   
+    width: 85px;
+   display: flex;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+
+}
+.las{
+    width: 80px;
+    height: 40px;
+}
+.trois{
+    color: white;
+    
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 40px;
+}
+.bwat{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
